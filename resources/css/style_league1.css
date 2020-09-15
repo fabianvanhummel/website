@@ -1,0 +1,163 @@
+body {
+    background-image:url('file://fspaka02/userdata7c$/al15266/Documents/VueJS/secret_project/resources/images/league.gif');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:96%;
+    width:96%;
+  }
+
+.neon_lol {
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    color: pink;
+    font: 80px 'Poiret One', cursive;
+    box-shadow: inset 0px 0px 10px #ffbbbb, 0px 0px 10px #e60023;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    border: 2px solid pink;
+    border-radius: 15px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn2 ease 6s;
+  }
+
+.neon2 {
+    padding: 10px;
+    color: black;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn ease 3s;
+  }
+  
+.neon3 {
+    padding: 10px;
+    color: whitesmoke;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    animation: fadeIn2 ease 12s;
+  }
+  
+  .neon4 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(56, 122, 50);
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .puzzel_antwoord {
+    animation: fadeIn2 ease 18s;
+  }
+
+  .check_antwoord {
+    animation: fadeIn2 ease 18s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  @keyframes fadeIn2 {
+    0% { opacity:0; }
+    75% { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.myBtn {
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+input[type=text1] {
+  border: 2px solid #ccc;
+  background: linear-gradient(to left, #ccc 2px, transparent 0);
+  background-size: 36px 2px;
+  font: 24px monaco, monospace; 
+  letter-spacing: 22.7px;
+  text-indent: 9px;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 20px;
+}
+
+form > div {
+  margin: 0 0 20px 0;
+}
+
+input[type=text] {
+  text-transform: uppercase;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #15c960;
+  border: 3px solid rgb(216, 212, 6);
+  opacity: 0.4;
+  height: 455px;
+  width: 40px;
+  position:absolute;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}

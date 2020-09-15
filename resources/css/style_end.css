@@ -1,0 +1,42 @@
+body {
+    background-image:url('file://fspaka02/userdata7c$/al15266/Documents/VueJS/secret_project/resources/images/tangled.gif');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height:96%;
+    width:96%;
+  }
+
+.neon2 {
+    padding: 10px;
+    color: black;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn ease 3s;
+  }
+  
+.neon3 {
+    padding: 10px;
+    color: whitesmoke;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    animation: fadeIn2 ease 6s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  @keyframes fadeIn2 {
+    0% { opacity:0; }
+    75% { opacity:0; }
+    100% { opacity:1; }
+  }
+  

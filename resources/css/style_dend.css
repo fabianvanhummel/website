@@ -1,0 +1,72 @@
+body {
+    background-image:url('file://fspaka02/userdata7c$/al15266/Documents/VueJS/secret_project/resources/images/dend.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height:96%;
+    width:96%;
+  }
+
+.neon_dend {
+    text-align: center;
+    width: 900px;
+    padding: 10px;
+    color: pink;
+    font: 80px 'Poiret One', cursive;
+    box-shadow: inset 0px 0px 10px #ffbbbb, 0px 0px 10px #e60023;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    border: 2px solid pink;
+    border-radius: 15px;
+    height: 100px;
+    margin: 0 auto;
+    position:absolute;
+    top:25%;
+    left:25%;
+    animation: fadeIn2 ease 6s;
+  }
+
+.neon2 {
+    padding: 10px;
+    color: black;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    position:absolute;
+    top:10%;
+    left:29%;
+    margin: 0 auto;
+    animation: fadeIn ease 3s;
+  }
+
+  .neon3 {
+    padding: 10px;
+    color: black;
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    position:absolute;
+    top:35%;
+    margin: 0 auto;
+    animation: fadeIn ease 12s;
+  }
+
+  .neon4 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(56, 122, 50);
+    font: 30px 'Poiret One', cursive;
+    text-shadow: 0px 0px 10px #e60023, 2px 2px 4px #212121;
+    height: 160px;
+    margin: 0 auto;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  @keyframes fadeIn2 {
+    0% { opacity:0; }
+    75% { opacity:0; }
+    100% { opacity:1; }
+  }
